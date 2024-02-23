@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="#home" style="--i: 1" class="active">Home</a>
+      <a href="#about" style="--i: 2">About</a>
+      <a href="#Project" style="--i: 4">Portfolio</a>
+      <a href="#contact" style="--i: 5">Contact</a>
+    </nav>
+  </header>
+  <section class="wrapper">
+    <div class="wrapper-content">
+      <section class="home">
+        <h1>
+          Hi There,
+          <br />
+          i'm Dennis Ohanugo
+        </h1>
+        <br />
+        <h3>And i am a <span class="multiple-text"></span></h3>
+        <br />
+        <a href="#about" class="btn">About me
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="social-media">
+          <a href="#" style="--i: 7"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#" style="--i: 8"><i class="bx bxl-twitter"></i></a>
+          <a href="#" style="--i: 9"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#" style="--i: 10"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-content">
+          <div class="text">
+            <h1>About me</h1>
+            <p>
+              Hi, my name is dennis Ohanugo am a fullstack developer, uiux designer and a game designer.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="img">
+            <img src="/img/WhatsApp_Image_2024-02-23_at_12.21.32_a5b276bf-removebg-preview.png">
+          </div>
+        </div>
+        </section>
+        <section class="Project" id="Project">
+          <div class="project-content">
+            <h1>
+              <i class="fas fa-laptop-code"></i>
+              Projects
+              <span style="color: rgb(195, 0, 255);">Made</span>
+            </h1>
+            <div class="projects">
+              <div class="project1">
+                <img src="/img/projectImg.jpeg" alt="">
+                <video id="mackkas_vid" autoplay="" muted="" src="/img/2024-02-23.mp4"></video>
+                <h2>Ticketing</h2>
+                <p>A ticketing app used to solve prolems concerning issues with the computer and software problem, For now.... <a href="https://mackkas.vercel.app/">Mackkas</a></p>
+            </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact" id="contact">
+          <div class="content">
+            <div class="contact_title">
+              <h1>Contact 
+                <span>Me</span>
+              </h1>
+              <h4>
+                Get in touch, hit me up
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="info_icon"
+                  height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M91.826 467.2V317.966c-8.248 5.841-16.558 10.57-24.918 14.153C35.098 345.752-.014 322.222 0 288c.008-18.616 10.897-32.203 29.092-40 28.286-12.122 64.329-78.648 77.323-107.534 7.956-17.857 25.479-28.453 43.845-28.464l.001-.002h171.526c11.812 0 21.897 8.596 23.703 20.269 7.25 46.837 38.483 61.76 38.315 123.731-.007 2.724.195 13.254.195 16 0 50.654-22.122 81.574-71.263 72.6-9.297 18.597-39.486 30.738-62.315 16.45-21.177 24.645-53.896 22.639-70.944 6.299V467.2c0 24.15-20.201 44.8-43.826 44.8-23.283 0-43.826-21.35-43.826-44.8zM112 72V24c0-13.255 10.745-24 24-24h192c13.255 0 24 10.745 24 24v48c0 13.255-10.745 24-24 24H136c-13.255 0-24-10.745-24-24zm212-24c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z">
+                  </path>
+                </svg>
+              </h4>
+            </div>
+            <div class="contact_content">
+              <div class="contact_form">
+                <h4>Send me a Message</h4>
+                <form>
+                  <div class="form_group">
+                    <label>Name</label><input type="text" name="user_name" placeholder="Your Name" />
+                  </div>
+                  <div class="form_group">
+                    <label>Email</label><input type="email" name="user_email" placeholder="Your Email" />
+                  </div>
+                  <div class="form_group">
+                    <label>Message</label><textarea name="message" placeholder="Your Message"></textarea>
+                  </div>
+                  <input type="submit" class="button" value="Send Message" />
+                </form>
+                <div class="Toastify"></div>
+              </div>
+              <div class="contact_info">
+                <div class="info_item">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="info_icon"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                    </path>
+                  </svg>
+                  <p>Email: simeonvictordayo@gmail.com</p>
+                </div>
+                <div class="info_item">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="info_icon"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                    </path>
+                  </svg>
+                  <p>Location: Lagos, Nigeria</p>
+                </div>
+                <div class="social_links">
+                  <a href="https://twitter.com/simeonvictorda1" target="_blank" rel="noopener noreferrer"><i
+                      class="bi bi-twitter"></i></a><a href="www.linkedin.com/in/simeon-victor-b72942288" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a><a
+                    href="https://instagram.com/deewhy01?igshid=MjEwN2IyYWYwYw==" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer"><h3>© 2023. All rights reserved.</h3><div class="socials"><a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a><a href="https://github.com/DeeFromNextDoor" class="social-icon"><i class="bi bi-github"></i></a></div></footer>
+        </div>
+    </div>
+  </section>
+  <script src="portfolio.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="wrapper-content">
+    <section class="home">
+      <div class="home-content">
+          <h3>Hello it's Me</h3>
+          <h1>Ohanugo. D</h1>
+          <h3>And i am a <span class="multiple-text"></span></h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+              Itaque ipsa quaerat, adipisci saepe dolore commodi sequi 
+              dolor illum delectus fugiat?</p>
+      </div>
+      <div class="home-img">
+          <img src="myport.png" alt="" class="img1">
+        
+         
+      </div>
+    </section>
+     ABOUT SECTION -->
+<!-- <section class="about" id="about">
+    <div class="about-img">
+      <img src="myport.png" alt="" class="myimg">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>me</span></h2>
+      <h3>Frontend Developer</h3>
+    </div>
+    </section> -->
+<!--Project section-->
+
+<!-- <section id="projects">
+    <div>
+        <h2>Projects</h2>
+    </div>
+<div class="gallery">
+<div class="image-box" onclick="openModal();currentSlide(1)">
+  <img src="wp6195787-cyberpunk-2077-4k-pc-wallpapers.jpg" alt="Project 1"> -->
+<!-- <div class="overlay"></div> -->
+<!-- </div>
+<div class="image-box" onclick="openModal();currentSlide(2)">
+  <img src="pic1.avif" alt="Project 2"> -->
+<!-- <div class="overlay"></div> -->
+<!-- </div>
+<div class="image-box" onclick="openModal();currentSlide(3)">
+  <img src="wp7843186-cyberpunk-4k-for-pc-wallpapers.jpg" alt="Project 3"> -->
+<!-- <div class="overlay"></div> -->
+<!-- </div>
+</div>
+</section> -->
+
+<!-- SERVICES PAGE
+  
+    <section class="services" id="services">
+      <h2 class="heading">our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-alt'></i>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Consequatur ullam magnam nisi animi sapiente, 
+            inventore reiciendis sunt commodi dignissimos mollitia.</p>
+            <a href="#" class="btn"></a>
+        </div>
+      </div>
+    </section>
+    
+</div> -->
